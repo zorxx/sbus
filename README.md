@@ -15,7 +15,7 @@ standard for SBUS devices:
 ## Usage
 1. Create a message handler callback
 ```c
-void sbus_message_handler(const sbus_messge_t message)
+void sbus_message_handler(const sbus_message_t message)
 {
    /* Do something with the parsed message */
 }
